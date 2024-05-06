@@ -1,6 +1,6 @@
 COMMENT
-floatdcl id 
+floatdcl print 
 intdcl id 
 id assign inum 
 id assign id multiply inum 
-id id 
+print id 
