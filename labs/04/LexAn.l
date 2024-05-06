@@ -17,11 +17,6 @@
 "/"                    { printf("divide "); }
 "%"                    { printf("module "); }
 
-"("                    { printf("lparen "); }
-")"                    { printf("rparen "); }
-"["                    { printf("lbracket "); }
-"]"                    { printf("rbracket "); }
-
 [a-zA-Z][a-zA-Z0-9]*+  { printf("id "); }
 
 [0-9]+"."[0-9]*        { printf("fnum "); }
